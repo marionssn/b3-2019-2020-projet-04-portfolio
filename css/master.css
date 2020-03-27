@@ -1,28 +1,30 @@
 body {
-  background-color: #ffc679;
+  background-color: #ffff;
 }
 section {
-  border-top: 1px solid #d3D3D3;
+  border-top: 2.3px solid #ffdf9f;
   min-height: 99vh;
 
 }
 
 header {
 text-align: center;
-padding : 6em;
+padding : 3em;
 color: #df8814;
-background-color: #763516;
+background-color: #ffff;
+}
 
+#conteneur {
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 
-
-ul {
-  line-height: 30pt;
-	letter-spacing: 2px ;
-	text-align: center;
+#conteneur a {
   padding: 1em;
 }
+
 
 
 #projects h1 {
@@ -49,11 +51,11 @@ ul {
   margin-bottom: 1em;
   flex-grow: 0;
   flex-basis: 300px;
-  background-color: #b54216;
 }
 
 .project-feature img {
-  max-width: 345px;
+  max-width: 550px;
+  border-radius: 23px;
 }
 
 .project-feature h2 {
@@ -62,18 +64,15 @@ ul {
 
 .project-box-container {
   display: flex;
-  padding: 1em;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  max-width: 1200px;
+  justify-content:space-around;
+  align-items: center;
+  max-width: 1600px;
   margin: auto;
-
 }
 
-figcaption {
-  font-size: 0.6em;
-  font-style: italic;
-}
+
+
 
 .photos-feature {
   padding: 1em;
@@ -101,71 +100,4 @@ figcaption {
   text-align: center;
   margin: auto;
   justify-content: space-around;
-
-}
-
-#main-menu{
-  background: #8fffd7;
-  position: absolute;
-  top: 0;
-  width: 200px;
-  height: 100%;
-  left: -200px;
-  transition: 0.5s ease all;
-  z-index: 999;
-}
-
-nav a{
-  display: block;
-  text-transform: uppercase;
-  padding: 1em;
-  text-decoration: none;
-}
-
-.menu-toggle{
-  border: 2px solid #000;
-  border-radius: 6px;
-  padding: 1em;
-}
-
-#main-menu:target{
-  left: 0;
-}
-
-.menu-close {
-  width: 100px;
-  height: 20px;
-  display: block;
-  color: #fff;
-  border-radius: 300%;
-  position: absolute;
-  top: 0px;
-  right: 38px;
-  display: none;
-}
-
-#main-menu:target + .backdrop{
-  background: rgba(132, 232, 80, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 998;
-}
-
-@media (min-width : 640px){
-  #main-menu {
-    position: relative;
-    left: auto;
-    top: auto;
-  }
-
-  .menu-toggle{
-    display: none;
-  }
-
-  #main-menu ul{
-    display: flex;
-  }
 }
