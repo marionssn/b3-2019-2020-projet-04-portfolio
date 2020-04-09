@@ -7,39 +7,109 @@ body {
 header h1 {
   font-family: 'cutive Mono';
   font-size: 60px;
-}
-
-
-h1 {
-  font-size: 2em;
   margin-bottom: 1.25em;
-  font-family: 'cutive Mono';
-}
-
-h2 {
-font-size: 2em;
-margin-bottom: 1em;
-font-family: 'cutive Mono';
-color: white;
-
-}
-h3 {
-  font-size: 2em;
-  font-family: 'cutive Mono';
-  color: #763516;
 
 }
 
-p{
-  font-family: 'Amatic SC';
-  font-size: 2em;
-  color: #763516;
-
-}
 
 li a {
   font-family: 'cutive Mono';
   font-size: 19pt;
     color: #763516;
     text-decoration: none;
+}
+
+
+
+.lino-txt {
+  font-family: 'cutive mono';
+  color: #E7710E;
+}
+
+.edition-txt {
+  font-family: 'cutive mono';
+  color: #E7710E;
+}
+.aqua-txt {
+  font-family: 'cutive mono';
+  color: #E7710E;
+}
+
+.layout-txt {
+  font-family: 'cutive mono';
+  color: #E7710E;
+}
+
+.identite-txt {
+  font-family: 'cutive mono';
+  color: #E7710E;
+}
+
+.rough-txt {
+  font-family: 'cutive mono';
+  color: #E7710E;
+}
+
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1.25em;
+  font-family: 'cutive Mono';
+  display: flex;
+align-items: center;
+
+}
+h3 {
+  font-size: 2em;
+  margin-bottom: 1.25em;
+  font-family: 'cutive Mono';
+}
+
+#àpropos p{
+  font-family: 'cutive Mono';
+  font-size: 20px;
+  color: #763516;
+
+}
+
+
+#contact h1 {
+  font-family: 'cutive mono';
+  font-size: 2em;
+}
+
+#contact p{
+  font-family: 'cutive Mono';
+  font-size: 20px;
+  color: #763516;
+}
+
+#details h3 {
+  font-family: 'cutive mono';
+  color: #E7710E;
+  font-size: 3em;
+  justify-content: center;
+  text-align: center;
+margin: 3em;
+ border-bottom: 1px solid #df8814;
+
+}
+
+h2 {
+  font-family: 'cutive mono';
+  color: #6A3508;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 1em;
+  justify-content: center;
+
+}
+
+#details a{
+  font-family: 'cutive mono';
+  color: #E7710E;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding: 2em;
 }
