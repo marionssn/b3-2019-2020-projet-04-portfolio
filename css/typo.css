@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat+Brush|Coming+Soon&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Quicksand&display=swap');
+
+
+
 body {
   font-family: helvetica;
+}
+a {
+  text-decoration: none;
 }
 
 header h1 {
@@ -59,18 +66,22 @@ h2 {
 align-items: center;
 
 }
+
 h3 {
   font-size: 2em;
-  margin-bottom: 1.25em;
   font-family: 'cutive Mono';
+
 }
 
 #àpropos p{
-  font-family: 'cutive Mono';
-  font-size: 20px;
+  font-family: 'quicksand';
+  font-size: 16px;
   color: #763516;
+  display: flex;
+  justify-content: center;
 
 }
+
 
 
 #contact h1 {
@@ -79,30 +90,31 @@ h3 {
 }
 
 #contact p{
-  font-family: 'cutive Mono';
-  font-size: 20px;
+  font-family: 'quicksand';
+  font-size: 15px;
   color: #763516;
+  line-height: 19px;
+
 }
 
 #details h3 {
-  font-family: 'cutive mono';
+  font-family: 'quicksand';
   color: #E7710E;
-  font-size: 3em;
+  font-size: 2em;
+  display: flex;
   justify-content: center;
   text-align: center;
-margin: 3em;
- border-bottom: 1px solid #df8814;
-
+  margin: 1em;
 }
+
 
 h2 {
   font-family: 'cutive mono';
-  color: #6A3508;
+  color: #fbbd6c;
   font-size: 1.4em;
-  text-align: center;
-  padding: 1em;
+  display: flex;
   justify-content: center;
-
+  text-align: center;
 }
 
 #details a{
